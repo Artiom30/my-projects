@@ -5,6 +5,9 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="./css/normolize.css">
 	<link rel="stylesheet" href="./css/style.css">
 	<title>НЕ-РОЗЫ</title>
@@ -12,11 +15,150 @@
 </head>
 
 <body>
-	<div class="header-page_wrp">
-		<header class="header-page">
+	<div class="page-background">
+		<div class="top-wrap">
+			<div class="top">
+				<header class="top__header">
+					<div class="top__header-logo">
+						<a href="#">
+							<div>
+								<!-- svg -->
+							</div>
+						</a>
+					</div>
+					<nav class="top__header-nav">
+						<ul class="top__header-nav-list">
+							<li class="top__header-nav-item">
+								<!-- autofocus??? -->
+								<form action="select1.php" method="post" class="dromdown-sity">
+									<p class="dromdown-sity_txt-style"> <!-- uppercase -->
+										<select size="1" name="dromdown-sity" tabindex class="dromdown-sity__select">
+											<option selected class="dromdown-sity__select-sity">ваш город</option>
+											<option value="Краснодар" class="dromdown-sity__select">краснодар</option>
+											<option value="..." class="dromdown-sity__select-sity">город</option>
+											<option value="..." class="dromdown-sity__select-sity">город</option>
+											<option value="..." class="dromdown-sity__select-sity">город</option>
+											<option value="..." class="dromdown-sity__select-sity">город</option>
+											<option value="..." class="dromdown-sity__select-sity">город</option>
+											<option value="..." class="dromdown-sity__select-sity">город</option>
+											<option value="..." class="dromdown-sity__select-sity">город</option>
+											<option value="..." class="dromdown-sity__select-sity">город</option>
+										</select>
+									</p>
+									<!-- <p>
+										<input type="submit" value="Отправить">
+									</p> -->
+								</form>
+							</li>
+							<li class="top__header-nav-item">
+								<a href="#">доставка</a> <!-- uppercase -->
+							</li>
+							<li class="top__header-nav-item">
+								<a href="#">
+									оплата</a><!-- uppercase -->
+							</li>
+							<li class="top__header-nav-item">
+								<button class="top-btn top-btn_client-order" type="submit">Заказать</button>
+							</li>
+							<li class="top__header-nav-item">
+								<a href="" class="top-btn top-btn_luxoru-line-link">luxory</a> <!-- cupitalize -->
+							</li>
+							<li class="top__header-nav-item">
+								<div class="top__header-basket-wrap">
+									<a href="" class="top__header-basket">
+										<!-- svg -->
+									</a>
+									<span class="top__header-basket-container">0</span>
+								</div>
+							</li>
+						</ul>
+					</nav>
+				</header>
+				<div class="top__promo">
+					<section class="promo-description">
+						<h1 class="promo-description__title"></h1>
+						<p class="promo-description__txt"></p>
+						<a href="#" class="top-btn top-btn_made-bouquet"></a> <!-- добавить ссылку -->
+						<a href="#" class="top-btn top-btn_made-designer"></a>
+					</section>
+					<div class="top__promo-img-wrap">
+						<img src="#" alt="изображение готовых букетов" class="top__promo-img">
+					</div>
+				</div>
+			</div>
+		</div>
 
-		</header>
+		<main>
+
+			<section class="product-disign">
+				<div class="product-disign__title_wrap">
+					<h2 class="product-disign__title"></h2>
+					<button class="product-disign__title-btn">
+						<div class="basket_wrap--product-disign">
+							<div class="basket">
+								<!-- svg -->
+							</div>
+							<span class="basket_counter">0</span>
+						</div>
+						<p class="amiunt-products"><span></span></p> <!-- не забыть добавить рублик -->
+					</button>
+				</div>
+
+				<div class="product-disign_inner">
+					<div class="product-disign__image-group">
+						<img src="#" alt="Готовый букет" class="product-disign__main-image">
+						<div class="product-disign__image-pointer1"></div>
+						<div class="product-disign__image-pointer2"></div>
+						<div class="product-disign__image-pointer3"></div>
+					</div>
+
+					<div class="product-disign__construction-desc">
+						<h2 class="product-disign__construction-desc__heading"></h2>
+						<p class="product-disign__construction-desc__txt"></p>
+					</div>
+					<div class="product-disign__construction-desc">
+						<h2 class="pr2duct-disign__construction-desc__heading"></h2>
+						<p class="product-disign__construction-desc__txt"></p>
+					</div>
+					<div class="product-disign__construction-desc">
+						<h2 class="product-disign__construction-desc__heading"></h2>
+						<p class="product-disign__construction-desc__txt"></p>
+					</div>
+				</div>
+
+			</section>
+
+			<section class="delivery-and-payment">
+				<h1 class="delivery-and-payment__title"></h1>
+				<div class="delivery-and-payment__description">
+					<div class="delivery-and-payment__description__img_wrap">
+						<img src="" alt="" class="delivery-and-payment__description__img">
+					</div>
+					<div class="delivery-and-payment__description__txt-box">
+						<h3 class="delivery-and-payment__description__txt-box__heading"></h3>
+						<p class="delivery-and-payment__description__txt-box__txt"></p>
+						<h3 class="delivery-and-payment__description__txt-box__heading"></h3>
+						<p class="delivery-and-payment__description__txt-box__txt"></p>
+						<h4 class="delivery-and-payment__description__txt-box__heading_small"></h4>
+						<p class="delivery-and-payment__description__txt-box__txt"></p>
+					</div>
+				</div>
+			</section>
+
+			<section class="product">
+				<h2 class="product__title"></h2>
+				<div class="product__product-line_elegance">
+					<div class="product__product-line__line-name-box">
+
+					</div>
+				</div>
+			</section>
+
+		</main>
 	</div>
+
+
+
 
 	<script type="module" src="./js/script.js"></script>
 </body>

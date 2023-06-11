@@ -1,0 +1,21 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+li,
+a {
+	text-decoration: none;
+}
+
+
+body {
+	font-family: "Roboto", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+
+	background: linear-gradient(180deg, #ED2727 0%, rgba(23, 158, 255, 0) 100%), linear-gradient(180deg, rgba(0, 168, 221, 0.45) 0%, rgba(185, 0, 201, 0) 100%), linear-gradient(180deg, #000000 0%, rgba(3, 13, 38, 0.53) 100%);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-blend-mode: multiply, normal, normal;
+}
